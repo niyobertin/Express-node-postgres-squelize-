@@ -1,0 +1,33 @@
+{
+  "name": "express-node-postgres-squelize-",
+  "version": "1.0.0",
+  "description": "building API using express and node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyobertin/Express-node-postgres-squelize-.git"
+  },
+  "author": "bertin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niyobertin/Express-node-postgres-squelize-/issues"
+  },
+  "homepage": "https://github.com/niyobertin/Express-node-postgres-squelize-#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
